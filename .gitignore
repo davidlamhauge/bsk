@@ -1,9 +1,12 @@
-.git
-pencil\*
-build*\*
+git
+pencil/
+buil*/
 
 # Prerequisites
 *.d
+# cpp files
+*.c
+*.cpp
 
 # Compiled Object files
 *.slo

@@ -17,10 +17,12 @@ public:
 
 public slots:
     void kontrollerPlus();
-    void plus(int tal1, int tal2);
     void afslut();
 
 private:
     Ui::MainWindow *ui;
+
+    void plus(int tal1, int tal2);
+    void udskrivResultat(QString resultat);
 };
 #endif // MAINWINDOW_H
